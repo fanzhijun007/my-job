@@ -1,6 +1,7 @@
 #!/bin/bash
 # 修改
 # sed -i 's/\r//g' kf-x.sh
+# 
 
 rpm -qa |grep dialog &>/dev/null || yum -y install dialog &>/dev/null
 #获取脚本所在目录
